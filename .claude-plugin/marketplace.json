@@ -1,0 +1,12 @@
+{
+  "name": "research-dojo-local",
+  "owner": {
+    "name": "Research Dojo"
+  },
+  "plugins": [
+    {
+      "name": "research-dojo",
+      "source": "./plugins/research-dojo"
+    }
+  ]
+}
