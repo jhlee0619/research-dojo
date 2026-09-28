@@ -1,6 +1,15 @@
-# Release validation — 1.0.0
+# Release validation
 
-Date: 2026-09-28. Environment: Linux, Python 3.12.14, local CPU.
+Date: 2026-09-28. Original experiment environment: Linux, Python 3.12.14, local CPU.
+
+The native-agent workflow and recorded measurements below were produced for
+1.0.0. Version 1.0.1 updates licensing, documentation, package checks, and the
+runtime version identifier; it does not change the evaluator or experiment engine.
+
+For 1.0.1, local package verification and all 23 automated tests passed again on
+Linux with Python 3.12.14. The updated standalone skill passed the Skill Creator
+validator. New checks cover bundled license copies, version/license consistency,
+README references, and complete checksum coverage.
 
 ## Automated checks
 
@@ -58,13 +67,25 @@ the bundled demo with `dojo.py demo` and initialize a fresh run. The sample's
 completed ledger and snapshots can still be inspected or exported by passing
 the sample's current path to `dojo.py`.
 
+## Remote CI evidence
+
+GitHub Actions completed successfully on 2026-09-28 for commit
+`782a6bd360d370e42cc33beb7b397e194d402c40` (1.0.0):
+
+- Ubuntu, Python 3.10 and 3.12.
+- macOS, Python 3.10 and 3.12.
+- Each job ran package verification and all 23 automated tests.
+
+[Recorded successful run](https://github.com/jhlee0619/research-dojo/actions/runs/36376359766).
+[Current CI runs](https://github.com/jhlee0619/research-dojo/actions) report later
+revisions separately. Do not treat this historic run as evidence for an untested
+future commit.
+
 ## Not exercised here
 
 - Actual Claude Code and Codex CLI Plugin loaders: executables are absent in the
   build environment. Manifests follow official formats and are checked locally;
   use `claude plugin validate` and the documented host installation checks.
-- macOS and Python 3.10 execution: included as CI matrix targets but not run in
-  this environment.
-- GitHub Actions execution, public marketplace submission, or external hosting.
+- WSL execution, public marketplace submission, or deployment of a model service.
 - Adversarial code isolation: this runner is not a security sandbox.
 - Recovery from arbitrary hardware/storage failures or daemonized hostile code.
