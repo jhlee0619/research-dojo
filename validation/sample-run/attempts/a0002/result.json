@@ -1,0 +1,20 @@
+{
+  "id": "a0002",
+  "candidate_id": "moments",
+  "status": "completed",
+  "started_at": "2026-09-28T02:03:24.975652+00:00",
+  "supervisor_pid": 4,
+  "supervisor_token": null,
+  "process_group": null,
+  "reserved_seconds": 20,
+  "code_sha256": "aff74fc9455a213deeea4cf33f6fdfc73cf9c4aded0c97073cc890543cd8bb21",
+  "values": [
+    0.031848,
+    0.018818,
+    0.018839
+  ],
+  "ended_at": "2026-09-28T02:03:25.164767+00:00",
+  "duration_seconds": 0.18822505899970565,
+  "error": null,
+  "score": 0.018839
+}

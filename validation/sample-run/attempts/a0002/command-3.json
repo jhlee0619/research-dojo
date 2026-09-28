@@ -1,0 +1,10 @@
+[
+  "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "/workspace/scratch/57825b3e38d0/validation-final/run/evaluator/evaluate.py",
+  "--candidate",
+  "/workspace/scratch/57825b3e38d0/validation-final/run/attempts/a0002/candidate",
+  "--output",
+  "/workspace/scratch/57825b3e38d0/validation-final/run/attempts/a0002/metrics-3.json",
+  "--seed",
+  "41"
+]
