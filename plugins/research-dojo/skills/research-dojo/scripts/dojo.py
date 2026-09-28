@@ -23,7 +23,7 @@ import tempfile
 import time
 from datetime import datetime, timezone
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 IGNORE = {".git", ".venv", "venv", "__pycache__", ".pytest_cache"}
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9_-]{0,63}$")
 
