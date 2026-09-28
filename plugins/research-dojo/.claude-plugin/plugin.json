@@ -1,0 +1,6 @@
+{
+  "name": "research-dojo",
+  "version": "1.0.0",
+  "description": "Measured local experiments with native subagents; no separate LLM API.",
+  "license": "MIT"
+}
