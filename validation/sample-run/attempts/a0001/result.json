@@ -1,0 +1,20 @@
+{
+  "id": "a0001",
+  "candidate_id": "baseline",
+  "status": "completed",
+  "started_at": "2026-09-28T02:03:24.694682+00:00",
+  "supervisor_pid": 4,
+  "supervisor_token": null,
+  "process_group": null,
+  "reserved_seconds": 20,
+  "code_sha256": "015b8fb9286a7c784c8c56e32514100a4c382dd556b02a92aa1ce6338d78f1a3",
+  "values": [
+    7.11411,
+    7.251017,
+    7.524779
+  ],
+  "ended_at": "2026-09-28T02:03:24.973480+00:00",
+  "duration_seconds": 0.2780241290001868,
+  "error": null,
+  "score": 7.251017
+}
