@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Dojo"
+  short_description: "Run reproducible experiments with native subagents"
+  default_prompt: "Use $research-dojo to improve this project through measured experiments with native subagents."
