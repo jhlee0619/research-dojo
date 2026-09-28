@@ -1,0 +1,1 @@
+{"valid": true, "metrics": {"elapsed_ms": 0.105879}, "details": {"correctness_cases": 14, "timings_ms": [0.1129, 0.106741, 0.105879, 0.101613, 0.102124]}}
