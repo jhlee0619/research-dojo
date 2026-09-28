@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "name": "Pairwise squared distances",
+  "goal": "Minimize runtime while preserving the exact sum of squared pairwise differences for integer sequences.",
+  "metric": "elapsed_ms",
+  "direction": "min",
+  "template": "candidates/baseline",
+  "evaluator": "evaluator",
+  "command": [
+    "{python}",
+    "{evaluator}/evaluate.py",
+    "--candidate",
+    "{candidate}",
+    "--output",
+    "{metrics}",
+    "--seed",
+    "{seed}"
+  ],
+  "seeds": [
+    3,
+    17,
+    41
+  ],
+  "limits": {
+    "max_attempts": 16,
+    "max_parallel": 1,
+    "timeout_seconds": 20,
+    "execution_budget_seconds": 120,
+    "max_log_bytes": 1000000
+  }
+}
