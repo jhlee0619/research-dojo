@@ -88,3 +88,9 @@ in the user's language.
 Consult [task-protocol.md](references/task-protocol.md) for CLI/schema details,
 [host-adapters.md](references/host-adapters.md) for platform behavior, and
 [roles.md](references/roles.md) for worker contracts.
+
+## Distribution notices
+
+When copying or sharing this skill, preserve its [LICENSE](LICENSE) and
+[NOTICE.md](NOTICE.md). Version 1.0.1 is distributed under CC BY-NC 4.0; the notice
+records provenance and earlier MIT grants. Review those terms for redistribution.
