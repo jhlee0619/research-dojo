@@ -1,0 +1,20 @@
+{
+  "name": "research-dojo-local",
+  "interface": {
+    "displayName": "Research Dojo"
+  },
+  "plugins": [
+    {
+      "name": "research-dojo",
+      "source": {
+        "source": "local",
+        "path": "./plugins/research-dojo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
