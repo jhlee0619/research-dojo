@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+demo-task/
+demo-run/
+selected-solution/
+.research-dojo-install.json
