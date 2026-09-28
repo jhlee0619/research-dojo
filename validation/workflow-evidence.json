@@ -1,0 +1,17 @@
+{
+  "native_workers": [
+    "two independent implementation subagents",
+    "one read-only review subagent"
+  ],
+  "native_flow": "baseline -> parallel candidate implementation -> sequential evaluation -> independent review -> export",
+  "initial_native_run_scores_ms": {
+    "baseline": 7.288783,
+    "moments": 0.021312,
+    "prefix": 0.069665
+  },
+  "review_finding": "Add explicit integer type check to timed demo calls; fixed and regression tested before release",
+  "final_evaluator_sha256": "639769fbc046d9c1a46db8ecadd72b01e049d1e2b0cb7976d866d149ee014053",
+  "final_run": "sample-run/",
+  "host_loader_tested": false,
+  "host_loader_reason": "Claude Code and Codex CLI executables unavailable in build environment"
+}
